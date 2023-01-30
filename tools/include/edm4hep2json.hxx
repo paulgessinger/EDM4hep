@@ -27,6 +27,7 @@
 #include <fstream>
 #include <iostream>
 #include <vector>
+#include <sstream>
 
 template <typename PodioStoreT>
 nlohmann::json processEvent(PodioStoreT& store, std::vector<std::string>& collList, bool verboser, unsigned eventNum) {
